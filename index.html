@@ -2,45 +2,9 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="me" href="https://hachyderm.io/@jbinto">
-  <style>
-    @media (max-width: 500px) {
-      header {
-        zoom: 0.5;
-      }
-    }
-
-    body { 
-      background-color: #D2D4D8;
-      margin: 20px;
-      font-size: 18px;
-      color: #08090A;
-      padding: 0;
-      text-shadow: 0 0 2px #2097E7;
-
-      /* like a <pre> tag */
-      font-family: monospace;
-    }
-
-    header, footer {
-      white-space: pre;
-    }
-
-    section {
-      font-family: sans-serif;
-      max-width: 1000px;
-      text-overflow: wrap;
-      /* white-space: normal; */
-      white-space: pre-wrap;
-      text-shadow: 0 0 0px;
-      font-size: 20px;
-    }
-    section ul {
-      white-space: normal;
-    }
-  </style>
+  <link rel="stylesheet" type="text/css" href="css.css">
 </head>
-<header>
-<b>multiball.dev</b> $ cat /etc/motd
+<header><b>multiball.dev</b> $ cat /etc/motd
                                       .-*###*+:
                                     -#@@#+++*%@@+.
                                   *@%-  .:-. .+@@-
@@ -64,45 +28,26 @@ This is a brand new space. There's <s>nothing</s> not much here yet.
 
 
 <b>multiball.dev</b> $ ls
-<a href="#why">why.txt</a>
-
+<a href="#tldr">tldr</a>
+<a href="why.html">why.html</a>
+<a href="ideas.html">ideas.html</a>
 
 </header>
 
-<a name="why"></a>
-<b>multiball.dev</b> $ cat why.txt
+<a name="tldr"></a>
+<b>multiball.dev</b> $ cat tldr
 <section>
-<em>It's $CURRENT_YEAR you idiot, why are you writing a website by hand?</em>
+<em>What is this?</em>
 
-I'll admit it: I'm swept up. I can't remember why I signed up for Mastodon <a href="https://web.archive.org/web/20221210051951/https://mastodon.social/@jbinto/1503747">in 2017</a>. I was at an airport waiting for my flight back to Toronto, and it seemed like a good way to kill some time. I promptly  forgot about it until the... situation at the bird site. I'm sure at some point this will sound goofy and naive, but the first few weeks of November were kind of magical. I was never a big tweeter, but I consumed the firehose like anyone. It was awful! It also had just enough actual substance to keep me coming back. On Mastodon, at least right now, I'm see a lot of those good parts amplified, and it's inspiring. 
+This is my personal website. Here I write personal stories and anecdotes about computers, music, and other nostalgia. 
 
-There's a critical mass of people who remember the BBS era, the IRC era, the web 0.5 .html era, all gathering in the same place, and there's a new energy playing out. There's a lot of people trying to capture what made computers and the internet special in the mid-1990s, and I want to be part of it.
+I am purposefully going for a <a href="https://neustadt.fr/essays/the-small-web/">small web</a> feel. I'm trying to capture the feeling of when the web was new, fun, and mostly just (hyper)text. 
 
-This isn't a thinkpiece about the birdsite or the fediverse. It's about me, personally, returning to the "<a href="https://www.google.ca/search?q=small+web">small web</a>", after a 20+ year hiatus. 
+I'm aiming to keep the site as simple as possible, to keep it fun to work on, and to focus mostly on writing.
 
-I'm also trying to shed many years of self-conditioning against over-sharing. "<a href="https://danluu.com/look-stupid/">You might look stupid</a> on the internet, and the internet is forever." Absolutely. This can be paralyzing. I cringe when I look back at things I wrote years ago. Maybe I'm a bit older and more mature now, and those things don't bother me as much. Nobody is being forced to read what I write, my future self included. I now see it as more important to leave a legacy in writing for those who <em>do</em> care. I'm choosing to view it as <em>all upside</em>. I get to write about things I think are interesting. People out there might also find it interesting. At best, it sparks a conversation. At worst, I'm yelling in the void and I get ignored: <em>same as it ever was</em>.
+More about why I'm doing this, and what I'm going for, in <a href="why.html">why.html</a>.
 
-In a lot of ways, I'm also excited about embracing an unstructured medium. For as long as I can remember now, when I think about about writing for the web, I get caught up in the technology and it just absolutely <a href="https://xkcd.com/356/"></a>nerd snipes</a> me... to the point where I get nothing done and give up. Posts, comments, schemas, backups, analytics, deployment... stylesheets... &laquo;shudder&raquo;. As you can see from the overall vibe of this page, I'm trying to have <em>fun</em> with this.
-
-I don't want this to be a blog. I'm trying not to think in terms of posts. It's a website. It's text, in a file, that I'm writing by hand and uploading to a server somewhere, and that I'll update occassionally. One day it will be more than one file. <a href="https://www.w3.org/Provider/Style/URI">Cool URIs don't change</a>, and standalone pages for some topics make sense, but I'm going to try not to have more than a few. I'm not going to tag things. I'm going to follow <a href="https://web.archive.org/web/20210616023817/https://twitter.com/patio11/status/1234146067589029890">Patrick McKenzie's advice to not date your writing</a>. I am not going to announce when I edit anything. I don't have any kind of analytics set up, not even a simple hit counter. If someone wishes to go to the effort of contacting me, that's going to be the only way I know anyone is reading. And that's perfectly ok. It's nice to be able to let go of all of these things.
-
-I intend to write about whatever I think is interesting enough to document, for myself or others. I don't claim to be an authority on anything, and you likely won't find any expert content here, but I will share personal anecdotes and stories. A lot of my future writing ideas revolve around my memories as a child privileged enough to have access to computers in the late 1980s. 
-
-Some writing ideas for the future:
-<ul>
-  <li>My dad ran a BBS from our home in the 1990s to support our family </li>
-  <li>My mom played Oil's Well on the Commodore 64 while I sat on her lap as a newborn</li>
-  <li>The Toronto Science Centre had Sun workstations with access to the internet via a T1, with a 3 button laser mice long before they were consumer products </li>
-  <li>I learned "object oriented programming" from an old MS-DOS, ANSI based video game called ZZT. There's a whole genre of these kinds of games worth exploring (Kroz, Megazeux, Insanity) </li>
-  <li>How Sierra and Apogee games had an outsized effect on me</li>
-  <li>How our cable company used to broadcast analog radio over coax, and how nobody I've ever spoken to knew that was a thing</li>
-  <li>Some mildly impressive stories about "DXing" ($20 term for "getting radio signals from far away")</li>
-  <li>The time I wrote a script to prove that our cable modem woes were related to UHF ingress from a local TV transmitter</li>
-  <li>What it's like to cross the Canada-US border by bicycle</li>
-  <li>The time I almost died due to a miswired outlet (which, funny enough, also relates to the radio-over-coax story)</li>
-</ul>
-
-
+A list of future writing prompts for myself is in <a href="ideas.html">ideas.html</a>.
 </section>
 
 <footer>
